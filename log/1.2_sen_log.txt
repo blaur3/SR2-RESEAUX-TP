@@ -1,0 +1,1178 @@
+[NET] INIT NETWORK LAYER OK (with local port 42525).
+[NET] (using 0.00 loss and 0.00 error probability)
+[TRP] Initialisation reseau : OK.
+[TRP] Debut execution protocole transport.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+[NET] packet received.
+[APP] Fin du fichier.
+[TRP] Fin execution protocole transfert de donnees (TDD).
