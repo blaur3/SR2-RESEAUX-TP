@@ -19,8 +19,10 @@ int main(int argc, char* argv[])
 {
     unsigned char message[MAX_INFO]; /* message pour l'application */
     paquet_t paquet; /* paquet utilisé par le protocole */
+    paquet_t pack;
     int paquet_attendu = 0;
     int fin = 0; /* condition d'arrêt */
+    int dernier_paquet=0;
 
     init_reseau(RECEPTION);
 
@@ -35,29 +37,38 @@ int main(int argc, char* argv[])
 
         // verification des eventuelles erreurs */
         uint8_t s = somme_de_controle(&paquet);
+        printf("\nPaquet %d recu, paquet attendu : %d, dernier paquet : %d ***********\n", paquet.num_seq, paquet_attendu, dernier_paquet);
         
-        if(!verifier_controle(&paquet, s)){
-            paquet.type = ACK;
-            paquet.num_seq = paquet_attendu;
+        if( (!verifier_controle(&paquet, s)) || !(paquet_attendu == paquet.num_seq) ){
+            printf("s : %d,  s_recu : %d", s, verifier_controle(&paquet, s) );
+            pack.num_seq = dernier_paquet;
         }
         else{
-            if(paquet_attendu == paquet.num_seq){
+
+                printf("s : %d,  s_recu : %d", s, verifier_controle(&paquet, s) );
+                printf("Le paquet n'a pas d'erreur\n");            
                 /* extraction des donnees du paquet recu */
                 for (int i=0; i<paquet.lg_info; i++) {
                     message[i] = paquet.info[i];
                 }
                 /* remise des données à la couche application */
+                dernier_paquet = paquet.num_seq;
+                printf("L'incrementation devrait etre %d \n", inc(paquet_attendu, NUMEROTATION));
+                paquet_attendu = inc(paquet_attendu, NUMEROTATION);
                 fin = vers_application(message, paquet.lg_info);
-                paquet_attendu = inc(paquet_attendu, 2);
             }
-            // envoi de l'acquittement */
-            vers_reseau(&paquet);
+            pack.type = ACK;
+            pack.lg_info = 0;
+            pack.num_seq = dernier_paquet;
+            pack.somme_ctrl = somme_de_controle(&pack);
+                // envoi de l'acquittement */
+            vers_reseau(&pack);
           }
 
         
      
        
-    }
+    
 
     printf("[TRP] Fin execution protocole transport.\n");
     return 0;

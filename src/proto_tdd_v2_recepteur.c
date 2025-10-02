@@ -46,8 +46,10 @@ int main(int argc, char* argv[])
                     message[i] = paquet.info[i];
                 }
                 /* remise des données à la couche application */
-                fin = vers_application(message, paquet.lg_info);
+                paquet.type = ACK;
                 paquet_attendu = inc(paquet_attendu, 2);
+                fin = vers_application(message, paquet.lg_info);
+                
             }
             // envoi de l'acquittement */
             vers_reseau(&paquet);

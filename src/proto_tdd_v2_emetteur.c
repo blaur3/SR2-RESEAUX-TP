@@ -54,8 +54,8 @@ int main(int argc, char* argv[])
             vers_reseau(&paquet);
             depart_temporisateur(TIMER);
         } 
-        de_reseau(&paquet_recu);
         arret_temporisateur(TIMER);
+        de_reseau(&paquet_recu);
         paquet.num_seq=inc(paquet.num_seq,2);
 
 

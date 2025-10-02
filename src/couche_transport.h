@@ -4,6 +4,7 @@
 #include <stdint.h> /* uint8_t */
 
 #define MAX_INFO 124
+#define NUMEROTATION 16
 
 /*************************
  * Structure d'un paquet *

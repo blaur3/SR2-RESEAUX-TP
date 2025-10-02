@@ -19,7 +19,7 @@
 
 #define TIMER 100
 #define FENETRE 4
-#define NUMEROTATION 16
+
 
 int main(int argc, char* argv[])
 {
@@ -29,8 +29,8 @@ int main(int argc, char* argv[])
     paquet_t paquet_recu;
     unsigned int prochain_paquet = 0;
     unsigned int borne_inf = 0;
-    int event;
-    int fenetre;
+    int event = 4;
+    int fenetre = 0;
 
     //Initialisation de la taille de la fenêtre
     if(argc > 1){
@@ -49,43 +49,56 @@ int main(int argc, char* argv[])
     printf("[TRP] Initialisation reseau : OK.\n");
     printf("[TRP] Debut execution protocole transport.\n");
 
-    /* lecture de donnees provenant de la couche application */
-    de_application(message, &taille_msg);
+    /* lecture des donnees suivantes de la couche application */
+        de_application(message, &taille_msg);
 
     /* tant que l'émetteur a des données à envoyer */
-    while ( taille_msg != 0 ) {
+    while ( taille_msg != 0 || (tab_paquet[prochain_paquet].num_seq != paquet_recu.num_seq) ) {
+
+         //Si on a des paquets à envoyer
         if(dans_fenetre(borne_inf, prochain_paquet, fenetre)) //Si le prochain paquet est dans la fenêtre
         {
+            
             /* construction paquet */
+            
             for (int i=0; i<taille_msg; i++) {
                 tab_paquet[prochain_paquet].info[i] = message[i];
             }
             tab_paquet[prochain_paquet].lg_info = taille_msg;
             tab_paquet[prochain_paquet].type = DATA;
-            tab_paquet[prochain_paquet].somme_ctrl = somme_de_controle(&tab_paquet[prochain_paquet]);
             tab_paquet[prochain_paquet].num_seq = prochain_paquet;
+            tab_paquet[prochain_paquet].somme_ctrl = somme_de_controle(&tab_paquet[prochain_paquet]);
             vers_reseau(&tab_paquet[prochain_paquet]);
             if(borne_inf == prochain_paquet){
                 depart_temporisateur(TIMER);
             }
             prochain_paquet = inc(prochain_paquet, NUMEROTATION);
+            if(taille_msg != 0)
+            {    
+             /* lecture des donnees suivantes de la couche application */
+                de_application(message, &taille_msg);}
 
         }
         else{//On attend un acquittement
             event = attendre();
             if(event == PAQUET_RECU){
                 de_reseau(&paquet_recu);
-                if(dans_fenetre(borne_inf, paquet_recu.num_seq, fenetre)){
+                printf("\nACK RECU\n");
+                uint8_t s = somme_de_controle(&paquet_recu);
+                if(verifier_controle(&paquet_recu, s) && dans_fenetre(borne_inf, paquet_recu.num_seq, fenetre)){
                     borne_inf = inc(paquet_recu.num_seq, NUMEROTATION);
                     if(borne_inf == prochain_paquet){
                         arret_temporisateur();
                     }
+                    
                 }   
             
             }
 
         else{
+            printf("\nTEMPS ECROULE\n");
             int i = borne_inf;
+            depart_temporisateur(TIMER);
             while(i != prochain_paquet){
                 vers_reseau(&tab_paquet[i]);
                 i = inc(i, NUMEROTATION);
@@ -93,12 +106,10 @@ int main(int argc, char* argv[])
         }
     }
 
-    /* lecture des donnees suivantes de la couche application */
-        de_application(message, &taille_msg);
+    
     }
-} 
+
 
     printf("[TRP] Fin execution protocole transfert de donnees (TDD).\n");
     return 0;
-}
 }
