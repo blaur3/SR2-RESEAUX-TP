@@ -45,7 +45,7 @@ int dans_fenetre(unsigned int inf, unsigned int pointeur, int taille);
 
 uint8_t somme_de_controle(paquet_t * p);
 
-int verifier_controle(paquet_t*p, uint8_t s);
+int verifier_controle(paquet_t* p);
 
 int inc(int num, int modulo);
 

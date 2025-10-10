@@ -36,7 +36,8 @@ uint8_t somme_de_controle(paquet_t * p){
     return s;
 }
 
-int verifier_controle(paquet_t*p, uint8_t s){
+int verifier_controle(paquet_t* p){
+    uint8_t s = somme_de_controle(p);
     return p->somme_ctrl == s;
 }
 

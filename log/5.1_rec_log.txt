@@ -1,5 +1,5 @@
 [NET] INIT NETWORK LAYER OK (with local port 42526).
-[NET] (using 0.00 loss and 0.00 error probability)
+[NET] (using 0.10 loss and 0.05 error probability)
 [TRP] Initialisation reseau : OK.
 [TRP] Debut execution protocole transport.
 [NET] packet received.
@@ -23,6 +23,22 @@ s : 63,  s_recu : 63
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 0some_controle generee : 146,  s_recu : 109 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 36,  s_recu : 36 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 161,  s_recu : 161 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 151,  s_recu : 151 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -50,7 +66,7 @@ Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 151,  s_recu : 151
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
@@ -78,7 +94,7 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 40,  s_recu : 40
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
@@ -102,23 +118,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 101,  s_recu : 101 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 237,  s_recu : 237 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 162,  s_recu : 162 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 43,  s_recu : 43
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 237,  s_recu : 237 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 162,  s_recu : 162 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 151,  s_recu : 151 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -132,7 +148,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 237,  s_recu : 237
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -140,34 +156,6 @@ s : 162,  s_recu : 162
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 41,  s_recu : 41 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 156,  s_recu : 156 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 230,  s_recu : 230 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 0some_controle generee : 104,  s_recu : 151 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 41,  s_recu : 41 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 156,  s_recu : 156 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 230,  s_recu : 230 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -191,23 +179,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 165,  s_recu : 165 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 129,  s_recu : 129 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 146,  s_recu : 146 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 230,  s_recu : 230
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 129,  s_recu : 129 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 146,  s_recu : 146 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 125,  s_recu : 125 .[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -224,6 +212,19 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 125,  s_recu : 125 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 52,  s_recu : 52 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 204,  s_recu : 204 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 146,  s_recu : 146
 Le paquet n'a pas d'erreur
@@ -236,6 +237,19 @@ s : 125,  s_recu : 125
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 204,  s_recu : 204 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 97,  s_recu : 97 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 50,  s_recu : 50 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -256,6 +270,7 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 97,  s_recu : 97
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -266,6 +281,30 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 184,  s_recu : 184 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 178,  s_recu : 178 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 172,  s_recu : 172 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 184,  s_recu : 184 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 178,  s_recu : 178 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 172,  s_recu : 172 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 112,  s_recu : 112
 Le paquet n'a pas d'erreur
@@ -274,17 +313,33 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 0some_controle generee : 71,  s_recu : 184 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 178,  s_recu : 178 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 172,  s_recu : 172 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 170,  s_recu : 170 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 184,  s_recu : 184
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 178,  s_recu : 178
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -322,10 +377,6 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 0some_controle generee : 175,  s_recu : 80 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
 verifier controle : 1some_controle generee : 81,  s_recu : 81 .[NET] packet sent.
 [NET] packet received.
@@ -345,47 +396,11 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 8 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 255,  s_recu : 255 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 145,  s_recu : 145 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 255,  s_recu : 255 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 145,  s_recu : 145 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 81,  s_recu : 81
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 145,  s_recu : 145 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 31,  s_recu : 31 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -406,7 +421,20 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 242,  s_recu : 242
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 233,  s_recu : 233 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 86,  s_recu : 86 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 247,  s_recu : 247 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
@@ -420,7 +448,7 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 233,  s_recu : 233
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -437,6 +465,35 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 55,  s_recu : 55 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 197,  s_recu : 197 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 147,  s_recu : 147 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 0some_controle generee : 95,  s_recu : 160 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 55,  s_recu : 55 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 197,  s_recu : 197 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 147,  s_recu : 147 .[31m[NET] packet loss![0m
+[NET] packet received.
+
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 160,  s_recu : 160
 Le paquet n'a pas d'erreur
@@ -444,10 +501,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 1 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 197,  s_recu : 197 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 147,  s_recu : 147 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 29,  s_recu : 29 .[31m[NET] packet loss![0m
+[NET] packet received.
+
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 55,  s_recu : 55
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -456,6 +526,10 @@ s : 197,  s_recu : 197
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 0some_controle generee : 108,  s_recu : 147 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -467,7 +541,7 @@ verifier controle : 1some_controle generee : 89,  s_recu : 89 .[NET] packet sent
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 126,  s_recu : 126 .[NET] packet sent.
+verifier controle : 0some_controle generee : 129,  s_recu : 126 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -481,6 +555,7 @@ Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 29,  s_recu : 29
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -579,7 +654,7 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 127,  s_recu : 127
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -635,21 +710,21 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 103,  s_recu : 103
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 57,  s_recu : 57
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 210,  s_recu : 210
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
@@ -677,23 +752,7 @@ Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 230,  s_recu : 230
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 0some_controle generee : 162,  s_recu : 93 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 239,  s_recu : 239 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 12,  s_recu : 12 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 221,  s_recu : 221 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
@@ -701,6 +760,18 @@ s : 93,  s_recu : 93
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 12,  s_recu : 12 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 221,  s_recu : 221 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 49,  s_recu : 49 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -721,7 +792,15 @@ Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 221,  s_recu : 221
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
+verifier controle : 1some_controle generee : 197,  s_recu : 197 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
+verifier controle : 1some_controle generee : 45,  s_recu : 45 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
@@ -732,28 +811,58 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 0some_controle generee : 58,  s_recu : 197 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 161,  s_recu : 161 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 45,  s_recu : 45 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 101,  s_recu : 101 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 0some_controle generee : 58,  s_recu : 197 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 161,  s_recu : 161 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 45,  s_recu : 45 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 161,  s_recu : 161 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 45,  s_recu : 45 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 101,  s_recu : 101 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 197,  s_recu : 197
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 0some_controle generee : 210,  s_recu : 45 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 101,  s_recu : 101 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 118,  s_recu : 118 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 161,  s_recu : 161
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -761,7 +870,19 @@ Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 45,  s_recu : 45
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 118,  s_recu : 118 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 31,  s_recu : 31 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 219,  s_recu : 219 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -775,6 +896,7 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 118,  s_recu : 118
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -782,21 +904,37 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 31,  s_recu : 31
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 219,  s_recu : 219
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 55,  s_recu : 55
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 118,  s_recu : 118 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 31,  s_recu : 31 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 219,  s_recu : 219 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 55,  s_recu : 55 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -806,11 +944,40 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 59,  s_recu : 59 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 7,  s_recu : 7 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 182,  s_recu : 182 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 87,  s_recu : 87
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 0some_controle generee : 196,  s_recu : 59 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 7,  s_recu : 7 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 0some_controle generee : 73,  s_recu : 182 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 102,  s_recu : 102 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -831,7 +998,7 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 182,  s_recu : 182
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -848,18 +1015,6 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 30,  s_recu : 30 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 57,  s_recu : 57 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 198,  s_recu : 198 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 199,  s_recu : 199
 Le paquet n'a pas d'erreur
@@ -868,26 +1023,10 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 0some_controle generee : 225,  s_recu : 30 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 0some_controle generee : 198,  s_recu : 57 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 198,  s_recu : 198 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 156,  s_recu : 156 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 30,  s_recu : 30
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -929,7 +1068,7 @@ Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 147,  s_recu : 147
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
@@ -937,6 +1076,22 @@ s : 161,  s_recu : 161
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 0some_controle generee : 106,  s_recu : 149 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 1,  s_recu : 1 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 128,  s_recu : 128 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 13, dernier paquet : 12 ***********
+verifier controle : 1some_controle generee : 95,  s_recu : 95 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -965,18 +1120,6 @@ s : 95,  s_recu : 95
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 1, dernier paquet : 0 ***********
-verifier controle : 0some_controle generee : 227,  s_recu : 28 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 1, dernier paquet : 0 ***********
-verifier controle : 1some_controle generee : 237,  s_recu : 237 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 1, dernier paquet : 0 ***********
-verifier controle : 1some_controle generee : 211,  s_recu : 211 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -1008,6 +1151,30 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 0some_controle generee : 95,  s_recu : 160 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 181,  s_recu : 181 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 0some_controle generee : 178,  s_recu : 77 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 248,  s_recu : 248 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 77,  s_recu : 77 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 248,  s_recu : 248 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 160,  s_recu : 160
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -1032,6 +1199,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 248,  s_recu : 248
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1070,23 +1238,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 0some_controle generee : 41,  s_recu : 214 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 76,  s_recu : 76 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
+verifier controle : 1some_controle generee : 223,  s_recu : 223 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 126,  s_recu : 126
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 76,  s_recu : 76 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 223,  s_recu : 223 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 191,  s_recu : 191 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -1118,6 +1286,22 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 0some_controle generee : 12,  s_recu : 243 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 56,  s_recu : 56 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 88,  s_recu : 88 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 119,  s_recu : 119 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 243,  s_recu : 243
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -1128,12 +1312,17 @@ Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 verifier controle : 0some_controle generee : 199,  s_recu : 56 .[NET] packet sent.
 [NET] packet received.
 
+Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
+verifier controle : 0some_controle generee : 167,  s_recu : 88 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
 Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
 verifier controle : 1some_controle generee : 119,  s_recu : 119 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 0some_controle generee : 121,  s_recu : 134 .[NET] packet sent.
+verifier controle : 1some_controle generee : 134,  s_recu : 134 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
@@ -1141,22 +1330,6 @@ s : 56,  s_recu : 56
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 119,  s_recu : 119 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 35,  s_recu : 35 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 134,  s_recu : 134 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 35,  s_recu : 35 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -1184,15 +1357,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 35,  s_recu : 35
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 33,  s_recu : 33 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 123,  s_recu : 123 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -1216,16 +1381,12 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 13 recu, paquet attendu : 12, dernier paquet : 11 ***********
-verifier controle : 1some_controle generee : 36,  s_recu : 36 .[NET] packet sent.
+Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 0some_controle generee : 132,  s_recu : 123 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 14 recu, paquet attendu : 12, dernier paquet : 11 ***********
 verifier controle : 1some_controle generee : 240,  s_recu : 240 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 15 recu, paquet attendu : 12, dernier paquet : 11 ***********
-verifier controle : 1some_controle generee : 118,  s_recu : 118 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
@@ -1249,23 +1410,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 31,  s_recu : 31 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 155,  s_recu : 155 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
+verifier controle : 1some_controle generee : 60,  s_recu : 60 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 118,  s_recu : 118
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 155,  s_recu : 155 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 60,  s_recu : 60 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 0, dernier paquet : 15 ***********
-verifier controle : 1some_controle generee : 205,  s_recu : 205 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
@@ -1279,6 +1440,19 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 155,  s_recu : 155
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 205,  s_recu : 205 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 137,  s_recu : 137 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 89,  s_recu : 89 .[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1318,26 +1492,26 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 0some_controle generee : 78,  s_recu : 177 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 1some_controle generee : 98,  s_recu : 98 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 1some_controle generee : 197,  s_recu : 197 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 1some_controle generee : 220,  s_recu : 220 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 177,  s_recu : 177
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 0some_controle generee : 157,  s_recu : 98 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 197,  s_recu : 197 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 220,  s_recu : 220 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 98,  s_recu : 98 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -1351,7 +1525,7 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 197,  s_recu : 197
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -1361,11 +1535,19 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 13 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 174,  s_recu : 174 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 180,  s_recu : 180 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 98,  s_recu : 98
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
@@ -1410,31 +1592,11 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 249,  s_recu : 249 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 237,  s_recu : 237 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 114,  s_recu : 114
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 129,  s_recu : 129 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 237,  s_recu : 237 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 251,  s_recu : 251 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -1469,6 +1631,7 @@ Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 108,  s_recu : 108
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1484,6 +1647,34 @@ s : 216,  s_recu : 216
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 0some_controle generee : 91,  s_recu : 164 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 185,  s_recu : 185 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 161,  s_recu : 161 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 79,  s_recu : 79 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 0some_controle generee : 91,  s_recu : 164 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 185,  s_recu : 185 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
+verifier controle : 1some_controle generee : 79,  s_recu : 79 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -1539,19 +1730,7 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 232,  s_recu : 232
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 33,  s_recu : 33 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 72,  s_recu : 72 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 1some_controle generee : 47,  s_recu : 47 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -1565,19 +1744,7 @@ Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 33,  s_recu : 33
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 47,  s_recu : 47 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 228,  s_recu : 228 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 69,  s_recu : 69 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
@@ -1612,6 +1779,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 236,  s_recu : 236
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1626,6 +1794,7 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 148,  s_recu : 148
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1671,11 +1840,35 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 2 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 85,  s_recu : 85 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 106,  s_recu : 106 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 131,  s_recu : 131 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 105,  s_recu : 105
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 0some_controle generee : 170,  s_recu : 85 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 131,  s_recu : 131 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -1689,27 +1882,8 @@ Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 106,  s_recu : 106
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 179,  s_recu : 179 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 179,  s_recu : 179 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 196,  s_recu : 196 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
@@ -1717,6 +1891,18 @@ s : 131,  s_recu : 131
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 179,  s_recu : 179 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 196,  s_recu : 196 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
+verifier controle : 1some_controle generee : 196,  s_recu : 196 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -1790,22 +1976,6 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 0some_controle generee : 197,  s_recu : 58 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 95,  s_recu : 95 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 120,  s_recu : 120 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 36,  s_recu : 36 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 58,  s_recu : 58
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -1819,19 +1989,11 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 3 recu, paquet attendu : 1, dernier paquet : 0 ***********
-verifier controle : 1some_controle generee : 78,  s_recu : 78 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 1, dernier paquet : 0 ***********
-verifier controle : 1some_controle generee : 214,  s_recu : 214 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 120,  s_recu : 120
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -1869,27 +2031,19 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 8 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 1some_controle generee : 36,  s_recu : 36 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 7, dernier paquet : 6 ***********
+verifier controle : 1some_controle generee : 124,  s_recu : 124 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 36,  s_recu : 36
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 0some_controle generee : 219,  s_recu : 36 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 124,  s_recu : 124 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 54,  s_recu : 54 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 8, dernier paquet : 7 ***********
-verifier controle : 1some_controle generee : 111,  s_recu : 111 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -1914,9 +2068,26 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 0some_controle generee : 144,  s_recu : 111 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 251,  s_recu : 251 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 175,  s_recu : 175 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 11, dernier paquet : 10 ***********
+verifier controle : 1some_controle generee : 36,  s_recu : 36 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 111,  s_recu : 111
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1969,6 +2140,18 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 128,  s_recu : 128 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 207,  s_recu : 207 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 1some_controle generee : 7,  s_recu : 7 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 60,  s_recu : 60
 Le paquet n'a pas d'erreur
@@ -1987,6 +2170,7 @@ Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 207,  s_recu : 207
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1995,14 +2179,6 @@ s : 7,  s_recu : 7
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 9 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 88,  s_recu : 88 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 7, dernier paquet : 6 ***********
-verifier controle : 1some_controle generee : 233,  s_recu : 233 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
@@ -2023,41 +2199,14 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 88,  s_recu : 88
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 0some_controle generee : 22,  s_recu : 233 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 243,  s_recu : 243 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 230,  s_recu : 230 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 0some_controle generee : 42,  s_recu : 213 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 243,  s_recu : 243 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 230,  s_recu : 230 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 213,  s_recu : 213 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 233,  s_recu : 233
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2065,6 +2214,7 @@ Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 243,  s_recu : 243
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2089,22 +2239,11 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 26,  s_recu : 26 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 102,  s_recu : 102 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 15, dernier paquet : 14 ***********
-verifier controle : 1some_controle generee : 13,  s_recu : 13 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 204,  s_recu : 204
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2113,6 +2252,19 @@ s : 26,  s_recu : 26
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 13,  s_recu : 13 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 17,  s_recu : 17 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 1, dernier paquet : 0 ***********
+verifier controle : 1some_controle generee : 69,  s_recu : 69 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -2127,10 +2279,6 @@ s : 13,  s_recu : 13
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 69,  s_recu : 69 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -2154,6 +2302,30 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 99,  s_recu : 99 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 98,  s_recu : 98 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 201,  s_recu : 201 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 0some_controle generee : 179,  s_recu : 76 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 98,  s_recu : 98 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 201,  s_recu : 201 .[31m[NET] packet loss![0m
+[NET] packet received.
+
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 76,  s_recu : 76
 Le paquet n'a pas d'erreur
@@ -2169,22 +2341,22 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
-s : 98,  s_recu : 98
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
+verifier controle : 0some_controle generee : 157,  s_recu : 98 .[NET] packet sent.
 [NET] packet received.
 
-Paquet 10 recu, paquet attendu : 9, dernier paquet : 8 ***********
+Paquet 9 recu, paquet attendu : 8, dernier paquet : 7 ***********
+verifier controle : 1some_controle generee : 201,  s_recu : 201 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 10 recu, paquet attendu : 8, dernier paquet : 7 ***********
 verifier controle : 1some_controle generee : 242,  s_recu : 242 .[NET] packet sent.
 [NET] packet received.
 
-Paquet 11 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 30,  s_recu : 30 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 72,  s_recu : 72 .[NET] packet sent.
+Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
+s : 98,  s_recu : 98
+Le paquet n'a pas d'erreur
+[APP] Ecriture fichier.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -2206,6 +2378,39 @@ s : 30,  s_recu : 30
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 0some_controle generee : 183,  s_recu : 72 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 193,  s_recu : 193 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 21,  s_recu : 21 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 243,  s_recu : 243 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 13 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 193,  s_recu : 193 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 21,  s_recu : 21 .[31m[NET] packet loss![0m
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 1some_controle generee : 243,  s_recu : 243 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
+verifier controle : 0some_controle generee : 183,  s_recu : 72 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 12, dernier paquet : 11 ***********
@@ -2249,6 +2454,22 @@ Le paquet n'a pas d'erreur
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 0some_controle generee : 11,  s_recu : 244 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 175,  s_recu : 175 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 2 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 51,  s_recu : 51 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 0, dernier paquet : 15 ***********
+verifier controle : 1some_controle generee : 41,  s_recu : 41 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 244,  s_recu : 244
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -2270,6 +2491,18 @@ Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
 verifier controle : 1some_controle generee : 62,  s_recu : 62 .[NET] packet sent.
 [NET] packet received.
 
+Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 41,  s_recu : 41 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 159,  s_recu : 159 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 5 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 62,  s_recu : 62 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 51,  s_recu : 51
 Le paquet n'a pas d'erreur
@@ -2277,16 +2510,16 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
+verifier controle : 0some_controle generee : 214,  s_recu : 41 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 4 recu, paquet attendu : 3, dernier paquet : 2 ***********
 verifier controle : 1some_controle generee : 159,  s_recu : 159 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 62,  s_recu : 62 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 3, dernier paquet : 2 ***********
-verifier controle : 1some_controle generee : 14,  s_recu : 14 .[NET] packet sent.
+verifier controle : 1some_controle generee : 62,  s_recu : 62 .[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -2296,27 +2529,23 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 0some_controle generee : 96,  s_recu : 159 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 5 recu, paquet attendu : 4, dernier paquet : 3 ***********
 verifier controle : 1some_controle generee : 62,  s_recu : 62 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 14,  s_recu : 14 .[NET] packet sent.
+verifier controle : 0some_controle generee : 241,  s_recu : 14 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 4, dernier paquet : 3 ***********
-verifier controle : 1some_controle generee : 232,  s_recu : 232 .[NET] packet sent.
+verifier controle : 0some_controle generee : 23,  s_recu : 232 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 159,  s_recu : 159
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -2347,31 +2576,11 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 10 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 91,  s_recu : 91 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 9, dernier paquet : 8 ***********
-verifier controle : 1some_controle generee : 60,  s_recu : 60 .[NET] packet sent.
-[NET] packet received.
-
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 218,  s_recu : 218
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
-[NET] packet received.
-
-Paquet 11 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 22,  s_recu : 22 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 60,  s_recu : 60 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 13 recu, paquet attendu : 10, dernier paquet : 9 ***********
-verifier controle : 1some_controle generee : 145,  s_recu : 145 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -2406,7 +2615,7 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 3,  s_recu : 3
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -2420,13 +2629,14 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 19,  s_recu : 19
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 103,  s_recu : 103
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2456,6 +2666,19 @@ s : 58,  s_recu : 58
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 131,  s_recu : 131 .[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 117,  s_recu : 117 .[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 6, dernier paquet : 5 ***********
+verifier controle : 1some_controle generee : 56,  s_recu : 56 .[NET] packet sent.
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -2497,22 +2720,14 @@ Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 61,  s_recu : 61
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 124,  s_recu : 124
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 14 recu, paquet attendu : 13, dernier paquet : 12 ***********
-verifier controle : 1some_controle generee : 42,  s_recu : 42 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 13, dernier paquet : 12 ***********
-verifier controle : 1some_controle generee : 133,  s_recu : 133 .[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -2550,11 +2765,15 @@ Le paquet n'a pas d'erreur
 [NET] packet sent.
 [NET] packet received.
 
+Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
+verifier controle : 1some_controle generee : 93,  s_recu : 93 .[NET] packet sent.
+[NET] packet received.
+
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 129,  s_recu : 129
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********

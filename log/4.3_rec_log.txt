@@ -177,5 +177,9 @@ s : 96,  s_recu : 96
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [APP] Fichier fermé.
+[31m[NET] loss LAST ACK[0m
+Renvoi du dernier ACK
+[NET] packet sent.
+Renvoi du dernier ACK
 [NET] packet sent.
 [TRP] Fin execution protocole transport.

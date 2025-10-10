@@ -35,34 +35,55 @@ int main(int argc, char* argv[])
         // attendre(); /* optionnel ici car de_reseau() fct bloquante */
         de_reseau(&paquet);
 
-        // verification des eventuelles erreurs */
-        uint8_t s = somme_de_controle(&paquet);
+        /* verification des eventuelles erreurs */
         printf("\nPaquet %d recu, paquet attendu : %d, dernier paquet : %d ***********\n", paquet.num_seq, paquet_attendu, dernier_paquet);
         
-        if( (!verifier_controle(&paquet, s)) || !(paquet_attendu == paquet.num_seq) ){
-            printf("s : %d,  s_recu : %d", s, verifier_controle(&paquet, s) );
+        /*Si erreur dans le paquet ou paquet hors sequence*/
+        if( (!verifier_controle(&paquet)) || !(paquet_attendu == paquet.num_seq) ){
+            printf("verifier controle : %d", verifier_controle(&paquet));
+            printf("some_controle generee : %d,  s_recu : %d .", somme_de_controle(&paquet), paquet.somme_ctrl );
             pack.num_seq = dernier_paquet;
         }
+
+        /*paquet sans erreur et en sequence*/
         else{
 
-                printf("s : %d,  s_recu : %d", s, verifier_controle(&paquet, s) );
-                printf("Le paquet n'a pas d'erreur\n");            
+                printf("s : %d,  s_recu : %d\n", somme_de_controle(&paquet), paquet.somme_ctrl );
+                printf("Le paquet n'a pas d'erreur\n"); 
+
                 /* extraction des donnees du paquet recu */
                 for (int i=0; i<paquet.lg_info; i++) {
                     message[i] = paquet.info[i];
                 }
                 /* remise des données à la couche application */
-                dernier_paquet = paquet.num_seq;
-                printf("L'incrementation devrait etre %d \n", inc(paquet_attendu, NUMEROTATION));
-                paquet_attendu = inc(paquet_attendu, NUMEROTATION);
                 fin = vers_application(message, paquet.lg_info);
+
+                dernier_paquet = paquet.num_seq; //dernier paquet recu sans erreurs
+                
+                paquet_attendu = inc(paquet_attendu, NUMEROTATION); //nouveau paquet attendu
             }
+
+            /* Construction de pasquer d'acquittement*/
             pack.type = ACK;
             pack.lg_info = 0;
             pack.num_seq = dernier_paquet;
             pack.somme_ctrl = somme_de_controle(&pack);
-                // envoi de l'acquittement */
+
+            // envoi de l'acquittement */
             vers_reseau(&pack);
+
+            /* Prevention de la perte du dernier Ack */
+            if(fin){
+                int i = 0;
+                while(i<4){
+                    printf("Renvoi du dernier ACK\n");
+                    vers_reseau(&pack);
+                    i++;
+                }
+
+            }
+                
+
           }
 
         

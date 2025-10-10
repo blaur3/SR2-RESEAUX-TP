@@ -18,6 +18,16 @@ Taille de la fenêtre : 4
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet sent.
+
+[APP] Lecture fichier.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -65,7 +75,6 @@ Taille de la fenêtre : 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -81,26 +90,12 @@ Taille de la fenêtre : 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet sent.
 [APP] Fin du fichier.
-[NET] packet received.
 [NET] packet received.
 [NET] packet received.
 [NET] packet received.
