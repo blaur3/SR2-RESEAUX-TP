@@ -4,7 +4,7 @@
 [TRP] Debut execution protocole transport.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 0 ***********
+Paquet 0 recu, paquet attendu : 0, dernier paquet : -1 ***********
 s : 39,  s_recu : 39
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -15,7 +15,6 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 124,  s_recu : 124
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -23,7 +22,7 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 127,  s_recu : 127
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -51,6 +50,7 @@ Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 123,  s_recu : 123
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -107,7 +107,7 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 11,  s_recu : 11
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -135,7 +135,8 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 127,  s_recu : 127
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -163,14 +164,14 @@ Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 12,  s_recu : 12
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 37,  s_recu : 37
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -178,10 +179,5 @@ s : 96,  s_recu : 96
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [APP] Fichier fermé.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-Renvoi du dernier ACK
-[NET] packet sent.
-Renvoi du dernier ACK
 [NET] packet sent.
 [TRP] Fin execution protocole transport.

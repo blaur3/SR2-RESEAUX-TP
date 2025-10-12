@@ -4,7 +4,7 @@
 [TRP] Debut execution protocole transport.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 0 ***********
+Paquet 0 recu, paquet attendu : 0, dernier paquet : -1 ***********
 s : 39,  s_recu : 39
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -178,8 +178,6 @@ Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [APP] Fichier fermé.
 [31m[NET] loss LAST ACK[0m
-Renvoi du dernier ACK
-[NET] packet sent.
-Renvoi du dernier ACK
+[NET] packet received.
 [NET] packet sent.
 [TRP] Fin execution protocole transport.

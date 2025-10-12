@@ -17,7 +17,7 @@
 /* Programme principal - émetteur  */
 /* =============================== */
 
-#define TIMER 100
+#define TIMER 150
 #define FENETRE 4
 
 

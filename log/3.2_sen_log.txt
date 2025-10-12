@@ -11,61 +11,9 @@ Taille de la fenêtre : 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
-[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -84,6 +32,91 @@ Taille de la fenêtre : 4
 TEMPS ECROULE
 [NET] packet sent.
 [NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet sent.
 [31m[NET] packet loss![0m
 [NET] packet received.
@@ -91,6 +124,18 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -99,6 +144,41 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
 
@@ -114,24 +194,11 @@ TEMPS ECROULE
 [NET] packet received.
 
 TEMPS ECROULE
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet sent.
 [NET] packet sent.
 [31m[NET] packet loss![0m
 [NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
 [NET] packet received.
 
 TEMPS ECROULE
@@ -147,326 +214,6 @@ TEMPS ECROULE
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
 [NET] packet received.
 [NET] packet sent.
 
@@ -531,258 +278,115 @@ TEMPS ECROULE
 [NET] packet sent.
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
 [NET] packet sent.
 [NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
 [NET] packet received.
@@ -852,14 +456,6 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
@@ -868,13 +464,53 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet received.
 [NET] packet received.
 
@@ -913,6 +549,7 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -929,33 +566,6 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
 [NET] packet received.
@@ -963,12 +573,32 @@ TEMPS ECROULE
 TEMPS ECROULE
 [NET] packet sent.
 [NET] packet sent.
-[31m[NET] packet loss![0m
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 [NET] packet sent.
 
@@ -1031,10 +661,6 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -1044,25 +670,48 @@ TEMPS ECROULE
 [APP] Lecture fichier.
 [NET] packet received.
 [31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
 
 TEMPS ECROULE
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet sent.
 [NET] packet sent.
 [NET] packet sent.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
+[NET] packet sent.
 
-TEMPS ECROULE
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
+
+[APP] Lecture fichier.
 [NET] packet received.
 [NET] packet sent.
 
@@ -1114,10 +763,103 @@ TEMPS ECROULE
 [NET] packet received.
 
 TEMPS ECROULE
+[31m[NET] packet loss![0m
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
 [NET] packet sent.
 [NET] packet sent.
 [31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
 [NET] packet received.
 [NET] packet sent.
 
@@ -1190,6 +932,601 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -1222,6 +1559,82 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
@@ -1233,6 +1646,32 @@ TEMPS ECROULE
 [NET] packet sent.
 
 [APP] Lecture fichier.
+[NET] packet received.
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [NET] packet received.
 [NET] packet received.
 
@@ -1251,337 +1690,78 @@ TEMPS ECROULE
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] packet loss![0m
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet sent.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
 [31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
 [NET] packet sent.
 [APP] Fin du fichier.
 [NET] packet received.
 [NET] packet received.
 [NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
 [NET] packet received.
 [TRP] Fin execution protocole transfert de donnees (TDD).

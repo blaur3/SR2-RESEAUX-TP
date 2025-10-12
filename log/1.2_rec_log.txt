@@ -4,7 +4,7 @@
 [TRP] Debut execution protocole transport.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 0 ***********
+Paquet 0 recu, paquet attendu : 0, dernier paquet : -1 ***********
 s : 107,  s_recu : 107
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.

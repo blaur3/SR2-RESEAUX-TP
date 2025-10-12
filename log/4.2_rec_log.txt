@@ -4,7 +4,7 @@
 [TRP] Debut execution protocole transport.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 0 ***********
+Paquet 0 recu, paquet attendu : 0, dernier paquet : -1 ***********
 s : 107,  s_recu : 107
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
@@ -92,7 +92,7 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 114,  s_recu : 114
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -113,7 +113,7 @@ Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 101,  s_recu : 101
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
@@ -148,7 +148,7 @@ Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 156,  s_recu : 156
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -176,7 +176,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 146,  s_recu : 146
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -239,7 +239,6 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 172,  s_recu : 172
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -268,7 +267,7 @@ Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 127,  s_recu : 127
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -289,7 +288,6 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 255,  s_recu : 255
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -297,7 +295,7 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 145,  s_recu : 145
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -325,6 +323,7 @@ Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
 s : 86,  s_recu : 86
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -339,6 +338,7 @@ Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 160,  s_recu : 160
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -346,7 +346,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 55,  s_recu : 55
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -360,7 +360,7 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 147,  s_recu : 147
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -395,7 +395,7 @@ Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 107,  s_recu : 107
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
@@ -430,6 +430,7 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 148,  s_recu : 148
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -465,7 +466,8 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 127,  s_recu : 127
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -571,6 +573,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 93,  s_recu : 93
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -634,13 +637,14 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 118,  s_recu : 118
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 31,  s_recu : 31
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -655,13 +659,14 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 55,  s_recu : 55
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
 s : 176,  s_recu : 176
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -718,7 +723,7 @@ Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 30,  s_recu : 30
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -739,6 +744,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 156,  s_recu : 156
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -893,21 +899,21 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 126,  s_recu : 126
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 214,  s_recu : 214
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 76,  s_recu : 76
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -970,7 +976,7 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 169,  s_recu : 169
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
@@ -998,7 +1004,7 @@ Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
 s : 36,  s_recu : 36
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
@@ -1019,6 +1025,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 31,  s_recu : 31
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1047,7 +1054,7 @@ Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 137,  s_recu : 137
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -1061,7 +1068,7 @@ Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 37,  s_recu : 37
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
@@ -1089,7 +1096,7 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 220,  s_recu : 220
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
@@ -1103,7 +1110,7 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 251,  s_recu : 251
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
@@ -1187,7 +1194,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 2,  s_recu : 2
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -1250,7 +1257,6 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 232,  s_recu : 232
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1258,14 +1264,14 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 51,  s_recu : 51
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 33,  s_recu : 33
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
@@ -1335,6 +1341,7 @@ Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
 s : 99,  s_recu : 99
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1363,7 +1370,7 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 105,  s_recu : 105
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
@@ -1377,14 +1384,14 @@ Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 106,  s_recu : 106
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 131,  s_recu : 131
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
@@ -1398,7 +1405,7 @@ Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 179,  s_recu : 179
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
@@ -1454,6 +1461,7 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 181,  s_recu : 181
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1531,6 +1539,7 @@ Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
 s : 124,  s_recu : 124
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1545,7 +1554,6 @@ Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
 s : 111,  s_recu : 111
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1581,7 +1589,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 47,  s_recu : 47
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -1616,28 +1624,28 @@ Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 207,  s_recu : 207
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
 s : 7,  s_recu : 7
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 133,  s_recu : 133
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 106,  s_recu : 106
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1701,6 +1709,7 @@ Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
 s : 102,  s_recu : 102
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1708,7 +1717,7 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 13,  s_recu : 13
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
@@ -1750,8 +1759,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 98,  s_recu : 98
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -1793,7 +1801,7 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 21,  s_recu : 21
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
@@ -1821,28 +1829,28 @@ Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
 s : 51,  s_recu : 51
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] packet loss![0m
+[NET] packet sent.
 [NET] packet received.
 
 Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
 s : 41,  s_recu : 41
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
 s : 159,  s_recu : 159
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
 s : 62,  s_recu : 62
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
@@ -1863,7 +1871,7 @@ Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 254,  s_recu : 254
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
@@ -1877,7 +1885,7 @@ Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
 s : 91,  s_recu : 91
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
@@ -1891,7 +1899,6 @@ Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
 s : 60,  s_recu : 60
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -1906,22 +1913,21 @@ Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
 s : 3,  s_recu : 3
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
 s : 163,  s_recu : 163
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 19,  s_recu : 19
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
@@ -1970,13 +1976,14 @@ Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
 s : 131,  s_recu : 131
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[NET] packet sent.
+[31m[NET] packet loss![0m
 [NET] packet received.
 
 Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
 s : 117,  s_recu : 117
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2012,7 +2019,6 @@ Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
 s : 116,  s_recu : 116
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
-[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2034,6 +2040,7 @@ Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
 s : 133,  s_recu : 133
 Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 [NET] packet received.
 
@@ -2064,8 +2071,4 @@ Le paquet n'a pas d'erreur
 [APP] Ecriture fichier.
 [APP] Fichier fermé.
 [NET] packet sent.
-Renvoi du dernier ACK
-[NET] packet sent.
-Renvoi du dernier ACK
-[31m[NET] packet loss![0m
 [TRP] Fin execution protocole transport.

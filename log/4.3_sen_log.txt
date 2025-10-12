@@ -103,5 +103,8 @@ Taille de la fenêtre : 4
 [NET] packet received.
 [NET] packet received.
 [NET] packet received.
+
+TEMPS ECROULE
+[NET] packet sent.
 [NET] packet received.
 [TRP] Fin execution protocole transfert de donnees (TDD).
