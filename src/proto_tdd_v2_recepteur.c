@@ -33,10 +33,9 @@ int main(int argc, char* argv[])
         // attendre(); /* optionnel ici car de_reseau() fct bloquante */
         de_reseau(&paquet);
 
-        // verification des eventuelles erreurs */
-        uint8_t s = somme_de_controle(&paquet);
+
         
-        if(!verifier_controle(&paquet, s)){
+        if(!verifier_controle(&paquet)){
             //On ne renvoie rien
         }
         else{

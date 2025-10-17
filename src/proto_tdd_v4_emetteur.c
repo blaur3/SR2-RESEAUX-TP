@@ -92,7 +92,7 @@ int main(int argc, char* argv[])
             if(event == PAQUET_RECU){
                 de_reseau(&paquet_recu);//reccuperation paquet d'acquittement
 
-                if(borne_inf == inc(paquet_recu.num_seq, NUMEROTATION)){//compte paquets dupliqués
+                if(paquet_recu.num_seq == (borne_inf-1)){//compte paquets dupliqués
                     ack_dup++;
                 }
 
@@ -108,13 +108,11 @@ int main(int argc, char* argv[])
                 }  
             
             }
-            /* Temps ecoulé ou Acquittement dupliqué */
-        if(ack_dup == 3 || event != PAQUET_RECU){
+            /* Temps ecoulé */
+        if(ack_dup != 3 || event != PAQUET_RECU){
             printf("\nTEMPS ECROULE\n");
             int i = borne_inf;
-            if(event!=PAQUET_RECU){
             depart_temporisateur(TIMER);
-            }
             /*tant que des paquets sont dans la fenêtre, on les renvoie*/
             while(i != prochain_paquet){
                 vers_reseau(&tab_paquet[i]);
