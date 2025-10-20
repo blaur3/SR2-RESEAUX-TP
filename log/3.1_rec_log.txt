@@ -4,245 +4,152 @@
 [TRP] Debut execution protocole transport.
 [NET] packet received.
 
-Paquet 0 recu, paquet attendu : 0, dernier paquet : -1 ***********
-s : 39,  s_recu : 39
-Le paquet n'a pas d'erreur
+Paquet 0 recu, paquet attendu : 0 ***********
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
-s : 124,  s_recu : 124
-Le paquet n'a pas d'erreur
+Paquet 2 recu, paquet attendu : 1 ***********
+Le paquet est hors séquence, num seq = 2
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 1 ***********
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 1 ***********
+Le paquet est hors séquence, num seq = 4
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 1 recu, paquet attendu : 1 ***********
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
-s : 127,  s_recu : 127
-Le paquet n'a pas d'erreur
+Paquet 5 recu, paquet attendu : 3 ***********
+Le paquet est hors séquence, num seq = 5
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 3 ***********
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
-s : 126,  s_recu : 126
-Le paquet n'a pas d'erreur
+Paquet 7 recu, paquet attendu : 6 ***********
+Le paquet est hors séquence, num seq = 7
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 9 recu, paquet attendu : 6 ***********
+Le paquet est hors séquence, num seq = 9
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 8 recu, paquet attendu : 6 ***********
+Le paquet est hors séquence, num seq = 8
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 6 ***********
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 6 ***********
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 6 ***********
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
-s : 123,  s_recu : 123
-Le paquet n'a pas d'erreur
+Paquet 10 recu, paquet attendu : 10 ***********
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
-s : 120,  s_recu : 120
-Le paquet n'a pas d'erreur
+Paquet 11 recu, paquet attendu : 11 ***********
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
-s : 123,  s_recu : 123
-Le paquet n'a pas d'erreur
+Paquet 13 recu, paquet attendu : 12 ***********
+Le paquet est hors séquence, num seq = 13
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 14 recu, paquet attendu : 12 ***********
+Le paquet est hors séquence, num seq = 14
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 15 recu, paquet attendu : 12 ***********
+[NET] packet received.
+
+Paquet 12 recu, paquet attendu : 12 ***********
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
-s : 15,  s_recu : 15
-Le paquet n'a pas d'erreur
+Paquet 15 recu, paquet attendu : 15 ***********
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
-s : 35,  s_recu : 35
-Le paquet n'a pas d'erreur
+Paquet 2 recu, paquet attendu : 0 ***********
+Le paquet est hors séquence, num seq = 2
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 3 recu, paquet attendu : 0 ***********
+Le paquet est hors séquence, num seq = 3
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 0 recu, paquet attendu : 0 ***********
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 9 recu, paquet attendu : 9, dernier paquet : 8 ***********
-s : 125,  s_recu : 125
-Le paquet n'a pas d'erreur
+Paquet 1 recu, paquet attendu : 1 ***********
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 10 recu, paquet attendu : 10, dernier paquet : 9 ***********
-s : 115,  s_recu : 115
-Le paquet n'a pas d'erreur
+Paquet 5 recu, paquet attendu : 4 ***********
+Le paquet est hors séquence, num seq = 5
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 6 recu, paquet attendu : 4 ***********
+Le paquet est hors séquence, num seq = 6
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 7 recu, paquet attendu : 4 ***********
+Le paquet est hors séquence, num seq = 7
+[NET] packet sent.
+[NET] packet received.
+
+Paquet 4 recu, paquet attendu : 4 ***********
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
+[APP] Ecriture fichier.
 [APP] Ecriture fichier.
 [NET] packet sent.
 [NET] packet received.
 
-Paquet 11 recu, paquet attendu : 11, dernier paquet : 10 ***********
-s : 113,  s_recu : 113
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 12 recu, paquet attendu : 12, dernier paquet : 11 ***********
-s : 117,  s_recu : 117
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 13 recu, paquet attendu : 13, dernier paquet : 12 ***********
-s : 124,  s_recu : 124
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
-verifier controle : 1some_controle generee : 125,  s_recu : 125 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 15 recu, paquet attendu : 14, dernier paquet : 13 ***********
-verifier controle : 1some_controle generee : 42,  s_recu : 42 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 14, dernier paquet : 13 ***********
-verifier controle : 1some_controle generee : 125,  s_recu : 125 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 14, dernier paquet : 13 ***********
-verifier controle : 1some_controle generee : 124,  s_recu : 124 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 14 recu, paquet attendu : 14, dernier paquet : 13 ***********
-s : 11,  s_recu : 11
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 15 recu, paquet attendu : 15, dernier paquet : 14 ***********
-s : 42,  s_recu : 42
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 0 recu, paquet attendu : 0, dernier paquet : 15 ***********
-s : 125,  s_recu : 125
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 1 recu, paquet attendu : 1, dernier paquet : 0 ***********
-s : 124,  s_recu : 124
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 0some_controle generee : 131,  s_recu : 124 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 2, dernier paquet : 1 ***********
-verifier controle : 0some_controle generee : 134,  s_recu : 121 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 2 recu, paquet attendu : 2, dernier paquet : 1 ***********
-s : 127,  s_recu : 127
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 3 recu, paquet attendu : 3, dernier paquet : 2 ***********
-s : 124,  s_recu : 124
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 4 recu, paquet attendu : 4, dernier paquet : 3 ***********
-s : 121,  s_recu : 121
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 12,  s_recu : 12 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 37,  s_recu : 37 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 12,  s_recu : 12 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 37,  s_recu : 37 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 5, dernier paquet : 4 ***********
-verifier controle : 1some_controle generee : 96,  s_recu : 96 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 5 recu, paquet attendu : 5, dernier paquet : 4 ***********
-s : 120,  s_recu : 120
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 96,  s_recu : 96 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 0some_controle generee : 243,  s_recu : 12 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 37,  s_recu : 37 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 96,  s_recu : 96 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 37,  s_recu : 37 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 6, dernier paquet : 5 ***********
-verifier controle : 1some_controle generee : 96,  s_recu : 96 .[NET] packet sent.
-[NET] packet received.
-
-Paquet 6 recu, paquet attendu : 6, dernier paquet : 5 ***********
-s : 12,  s_recu : 12
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 7 recu, paquet attendu : 7, dernier paquet : 6 ***********
-s : 37,  s_recu : 37
-Le paquet n'a pas d'erreur
-[APP] Ecriture fichier.
-[NET] packet sent.
-[NET] packet received.
-
-Paquet 8 recu, paquet attendu : 8, dernier paquet : 7 ***********
-s : 96,  s_recu : 96
-Le paquet n'a pas d'erreur
+Paquet 8 recu, paquet attendu : 8 ***********
 [APP] Ecriture fichier.
 [APP] Fichier fermé.
 [NET] packet sent.

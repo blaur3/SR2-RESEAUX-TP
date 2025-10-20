@@ -5,743 +5,328 @@ Taille de la fenêtre : 4
 [TRP] Debut execution protocole transport.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 0, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 13, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 1
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 3, borne_inf = 1
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 
-TEMPS ECROULE
+Temps ecoule pour le paquet 2, retransmission
 [NET] packet sent.
+
+Temps ecoule pour le paquet 3, retransmission
 [NET] packet sent.
-[NET] packet sent.
+
+Temps ecoule pour le paquet 4, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 6
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[31m[NET] generating error in packet![0m
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
+Envoi du paquet 14, borne_inf = 11
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 15, borne_inf = 12
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 1, borne_inf = 14
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Temps ecoule pour le paquet 14, retransmission
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 1, retransmission
+[NET] packet sent.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 14, retransmission
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+Temps ecoule pour le paquet 14, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 5, borne_inf = 2
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
+Envoi du paquet 6, borne_inf = 3
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 7, borne_inf = 4
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
+Temps ecoule pour le paquet 5, retransmission
 [NET] packet sent.
+
+Temps ecoule pour le paquet 6, retransmission
 [NET] packet sent.
+
+Temps ecoule pour le paquet 7, retransmission
 [31m[NET] packet loss![0m
-[NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
+
+Temps ecoule pour le paquet 7, retransmission
+[NET] packet sent.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
+Envoi du paquet 11, borne_inf = 11
 [31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 12, borne_inf = 11
 [NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 11
 [NET] packet sent.
-[NET] packet received.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -749,99 +334,389 @@ TEMPS ECROULE
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+Temps ecoule pour le paquet 11, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 15
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 0, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 4, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 5, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 6, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 7, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 12, borne_inf = 10
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 14, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 15, retransmission
+[31m[NET] packet loss![0m
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 15
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 0, retransmission
 [NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
+Temps ecoule pour le paquet 1, retransmission
 [NET] packet sent.
-
-[APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 4
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 6, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 7, borne_inf = 4
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Temps ecoule pour le paquet 4, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 6, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 7, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
-[NET] packet received.
+
+Temps ecoule pour le paquet 15, retransmission
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+Temps ecoule pour le paquet 0, retransmission
+[NET] packet sent.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+Temps ecoule pour le paquet 15, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 4, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 5, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 10, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -849,304 +724,918 @@ TEMPS ECROULE
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
+Temps ecoule pour le paquet 1, retransmission
 [NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+
+Temps ecoule pour le paquet 3, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 3
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 11, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Temps ecoule pour le paquet 13, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 14, retransmission
+[31m[NET] packet loss![0m
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 14, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 4, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 5, borne_inf = 2
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 6, borne_inf = 3
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet received.
+Temps ecoule pour le paquet 4, retransmission
 [NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
+Temps ecoule pour le paquet 5, retransmission
 [31m[NET] packet loss![0m
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+Temps ecoule pour le paquet 6, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Temps ecoule pour le paquet 4, retransmission
 [NET] packet sent.
 
-[APP] Lecture fichier.
+Temps ecoule pour le paquet 5, retransmission
 [NET] packet sent.
-
-[APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 8, borne_inf = 5
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 9, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
 
-[APP] Lecture fichier.
+Envoi du paquet 10, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 14, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 9, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 14, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 15, borne_inf = 12
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 13, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 4, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 6, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 10, borne_inf = 8
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 10
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Temps ecoule pour le paquet 10, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 11, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Temps ecoule pour le paquet 11, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 8, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 9, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
-[NET] packet received.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 13, retransmission
+[NET] packet sent.
 [NET] packet received.
 
-TEMPS ECROULE
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 0
 [NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [31m[NET] packet loss![0m
-[NET] packet sent.
+
+[APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[31m[NET] generating error in packet![0m
+[NET] packet sent.
+
+Temps ecoule pour le paquet 4, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 5, retransmission
+[31m[NET] packet loss![0m
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 4, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 6, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 10, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 11, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 4, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 5, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 9, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 11, borne_inf = 8
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 11, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -1154,128 +1643,368 @@ TEMPS ECROULE
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+Temps ecoule pour le paquet 2, retransmission
 [NET] packet sent.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 6
+[31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
+
+Envoi du paquet 9, borne_inf = 6
+[31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Temps ecoule pour le paquet 8, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 9, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 11, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 8, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 9, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 7, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 10, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 12, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 13, borne_inf = 10
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 13, retransmission
+[31m[NET] packet loss![0m
+
+Temps ecoule pour le paquet 13, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 1, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 1
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 1
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 4, borne_inf = 1
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 3, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 4, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 8, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 9, borne_inf = 7
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 10, borne_inf = 7
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
+
+Temps ecoule pour le paquet 10, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
+Envoi du paquet 14, borne_inf = 12
+[31m[NET] packet loss![0m
+
+[APP] Lecture fichier.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Temps ecoule pour le paquet 12, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 14, retransmission
+[31m[NET] packet loss![0m
+
+Temps ecoule pour le paquet 15, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 0, borne_inf = 14
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+[NET] packet received.
+
+Temps ecoule pour le paquet 14, retransmission
+[NET] packet sent.
+
+Temps ecoule pour le paquet 0, retransmission
+[NET] packet sent.
+[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 0
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 4, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+
+Envoi du paquet 5, borne_inf = 2
+[NET] packet sent.
+
+[APP] Lecture fichier.
+[NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [31m[NET] packet loss![0m
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -1283,301 +2012,60 @@ TEMPS ECROULE
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Temps ecoule pour le paquet 6, retransmission
 [31m[NET] generating error in packet![0m
 [NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
+Temps ecoule pour le paquet 6, retransmission
+[NET] packet sent.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 10, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
+
+Envoi du paquet 11, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
+Envoi du paquet 12, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
+Temps ecoule pour le paquet 10, retransmission
 [NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
+
+Temps ecoule pour le paquet 12, retransmission
 [NET] packet sent.
 [NET] packet received.
-[NET] packet received.
+
+Envoi du paquet 14, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
 
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
@@ -1586,60 +2074,24 @@ TEMPS ECROULE
 [NET] packet received.
 [NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[31m[NET] generating error in packet![0m
+Temps ecoule pour le paquet 14, retransmission
 [NET] packet sent.
 [NET] packet received.
-[NET] packet received.
+
+Envoi du paquet 2, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-[NET] packet received.
 
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[31m[NET] packet loss![0m
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] packet loss![0m
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet sent.
-[NET] packet received.
-[31m[NET] generating error in packet![0m
-[NET] packet sent.
-
-[APP] Lecture fichier.
-[NET] packet received.
+Envoi du paquet 4, borne_inf = 2
 [NET] packet sent.
 [APP] Fin du fichier.
 [NET] packet received.
-[NET] packet received.
-[NET] packet received.
-
-TEMPS ECROULE
-[NET] packet sent.
-[NET] packet sent.
 [NET] packet received.
 [NET] packet received.
 [TRP] Fin execution protocole transfert de donnees (TDD).

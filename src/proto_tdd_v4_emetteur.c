@@ -2,7 +2,7 @@
 * proto_tdd_v0 -  émetteur                                   *
 * TRANSFERT DE DONNEES  v1                                   *
 *                                                            *
-* Protocole Stop-and-Wait avec acquittement négatif          *
+* Protocole Selective Repeat         *
 *                                                            *
 **************************************************************/
 
@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
     unsigned int borne_inf = 0;
     int event = 4;
     int fenetre = 0;
-    int ack_dup = 0; 
+    int ack_recu[NUMEROTATION] = {0};
 
     //Initialisation de la taille de la fenêtre
     if(argc > 1){
@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
         if(dans_fenetre(borne_inf, prochain_paquet, fenetre) && taille_msg > 0) //Si le prochain paquet est dans la fenêtre
         {
             
-            /* construction paquet */
+            /* Construction paquet */
             
             for (int i=0; i<taille_msg; i++) {
                 tab_paquet[prochain_paquet].info[i] = message[i];
@@ -71,14 +71,14 @@ int main(int argc, char* argv[])
             tab_paquet[prochain_paquet].num_seq = prochain_paquet;
             tab_paquet[prochain_paquet].somme_ctrl = somme_de_controle(&tab_paquet[prochain_paquet]);
 
+            /* Depart temporisateur */
+            depart_temporisateur_num(prochain_paquet, TIMER);
+
             /* Envoi du paquet */
+            printf("\nEnvoi du paquet %d, borne_inf = %d\n", prochain_paquet, borne_inf);
             vers_reseau(&tab_paquet[prochain_paquet]);
 
-            /* Depart temporisateur */
-            if(borne_inf == prochain_paquet){
-                depart_temporisateur(TIMER);
-            }
-
+            /* Incrementation du numéro de prochain paquet */
             prochain_paquet = inc(prochain_paquet, NUMEROTATION);
 
             /* lecture des donnees suivantes de la couche application */
@@ -88,43 +88,38 @@ int main(int argc, char* argv[])
         else{//On attend un acquittement
             event = attendre();
 
-            /* Ack recu*/
+            // ACK recu
             if(event == PAQUET_RECU){
-                de_reseau(&paquet_recu);//reccuperation paquet d'acquittement
-
-                if(paquet_recu.num_seq == (borne_inf-1)){//compte paquets dupliqués
-                    ack_dup++;
-                }
+                /* Reception du paquet d'acquittement */
+                de_reseau(&paquet_recu);
 
                 /* Si il n'y a pas d'erreur dans le paquet d'acquittement et qu'il est dans la fenêtre*/
                 if(verifier_controle(&paquet_recu) && dans_fenetre(borne_inf, paquet_recu.num_seq, fenetre)){
-                    borne_inf = inc(paquet_recu.num_seq, NUMEROTATION);//on decale la borne inférieure de la fenêtre
-                    ack_dup = 0;
-                    /* Si la borne inférieure est égale au prochain paquet, on arrête le temporisateur */
-                    if(borne_inf == prochain_paquet){
-                        arret_temporisateur();
+
+                    ack_recu[paquet_recu.num_seq] = 1;
+
+                    /* Arrêt du temporisateur */
+                    arret_temporisateur_num(paquet_recu.num_seq);
+
+                     while (ack_recu[borne_inf]) {
+                        ack_recu[borne_inf] = 0; // on réinitialise (optionnel)
+                        borne_inf = inc(borne_inf, NUMEROTATION);
                     }
-                    
-                }  
-            
+                }
             }
-            /* Temps ecoulé */
-        if(ack_dup != 3 || event != PAQUET_RECU){
-            printf("\nTEMPS ECROULE\n");
-            int i = borne_inf;
-            depart_temporisateur(TIMER);
-            /*tant que des paquets sont dans la fenêtre, on les renvoie*/
-            while(i != prochain_paquet){
-                vers_reseau(&tab_paquet[i]);
-                i = inc(i, NUMEROTATION);
+
+            // Temps écoulé
+            else{
+                /* On redémarre le temporisateur */
+                depart_temporisateur_num(event, TIMER);
+                printf("\nTemps ecoule pour le paquet %d, retransmission\n", event);
+                /* On renvoie le paquet non acquitté */
+                vers_reseau(&tab_paquet[event]);
             }
-            
         }
-        
+
     }
 
-    
-    }
 
 
     printf("[TRP] Fin execution protocole transfert de donnees (TDD).\n");

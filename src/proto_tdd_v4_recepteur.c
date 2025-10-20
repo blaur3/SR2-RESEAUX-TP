@@ -2,9 +2,9 @@
  * proto_tdd_v0 -  récepteur                                  *
  * TRANSFERT DE DONNEES  v0                                   *
  *                                                            *
- * Protocole sans contrôle de flux, sans reprise sur erreurs  *
+ * Protocole Selective Repeat  *
  *                                                            *
- * E. Lavinal - Univ. de Toulouse III - Paul Sabatier         *
+ *      *
  **************************************************************/
 
 #include <stdio.h>
@@ -20,16 +20,24 @@
 int main(int argc, char *argv[])
 {
     unsigned char message[MAX_INFO]; /* message pour l'application */
-    paquet_t paquet;                 /* paquet utilisé par le protocole */
+    paquet_t paquet; 
+    paquet_t paquets_recu[NUMEROTATION];                /* paquet utilisé par le protocole */
     paquet_t pack;
     int paquet_attendu = 0;
     int fin = 0; /* condition d'arrêt */
-    int dernier_paquet = -1;
+    int borne_inf = 0;
+    
+
+    for (int i = 0; i < NUMEROTATION; i++)
+        paquets_recu[i].lg_info = 0;
 
     init_reseau(RECEPTION);
 
     printf("[TRP] Initialisation reseau : OK.\n");
     printf("[TRP] Debut execution protocole transport.\n");
+
+
+
 
     /* tant que le récepteur reçoit des données */
     while (!fin)
@@ -37,48 +45,74 @@ int main(int argc, char *argv[])
 
         // attendre(); /* optionnel ici car de_reseau() fct bloquante */
         de_reseau(&paquet);
-
-        /* verification des eventuelles erreurs */
-        printf("\nPaquet %d recu, paquet attendu : %d, dernier paquet : %d ***********\n", paquet.num_seq, paquet_attendu, dernier_paquet);
-
-        /*Si erreur dans le paquet ou paquet hors sequence*/
-        if ((!verifier_controle(&paquet)) || !(paquet_attendu == paquet.num_seq))
+        printf("\nPaquet %d recu, paquet attendu : %d ***********\n", paquet.num_seq, paquet_attendu);
+        
+        //Si erreur dans le paquet
+        if ((!verifier_controle(&paquet)))
         {
-            printf("verifier controle : %d", verifier_controle(&paquet));
-            printf("some_controle generee : %d,  s_recu : %d .", somme_de_controle(&paquet), paquet.somme_ctrl);
-            pack.num_seq = dernier_paquet;
+            /* On ne renvoie rien */
         }
 
-        /*paquet sans erreur et en sequence*/
-        else
-        {
-
-            printf("s : %d,  s_recu : %d\n", somme_de_controle(&paquet), paquet.somme_ctrl);
-            printf("Le paquet n'a pas d'erreur\n");
-
-            /* extraction des donnees du paquet recu */
-            for (int i = 0; i < paquet.lg_info; i++)
-            {
-                message[i] = paquet.info[i];
+        //Pas d'erreur dans le paquet
+        else{
+            if(dans_fenetre(borne_inf, paquet.num_seq, NUMEROTATION/2)){
+                /*Historisation du paquet reçu*/
+                if(paquets_recu[paquet.num_seq].lg_info == 0){
+                    paquets_recu[paquet.num_seq] = paquet;
+                }
             }
-            /* remise des données à la couche application */
-            fin = vers_application(message, paquet.lg_info);
+            //Si le paquet est hors séquence    
+            if(!(paquet_attendu == paquet.num_seq))
+            {
+                printf("Le paquet est hors séquence, num seq = %d\n", paquet.num_seq);
+                
+                
+            }
+            //Si le paquet est en séquence
+            else{
 
-            dernier_paquet = paquet.num_seq; // dernier paquet recu sans erreurs
+                /*Traitement de tous les paquets en séquence*/
+                for(int i = 0; i < NUMEROTATION; i++){
 
-            paquet_attendu = inc(paquet_attendu, NUMEROTATION); // nouveau paquet attendu
+                    //Si le paquet est en séquence
+                    if(paquets_recu[paquet_attendu].lg_info > 0){
+
+                        /* extraction des données du paquet recu */
+                        for(int j = 0; j < paquets_recu[paquet_attendu].lg_info; j++)
+                            message[j] = paquets_recu[paquet_attendu].info[j];
+
+                        /* Envoi des données à l'application */
+                        fin = vers_application(message, paquets_recu[paquet_attendu].lg_info);
+
+                        /*Déhistorisation du paquet de données retransmises*/
+                        paquets_recu[paquet_attendu].lg_info = 0;
+
+                        /*Incrementation du numéro de paquet attendu*/
+                        paquet_attendu = inc(paquet_attendu, NUMEROTATION);
+
+                        /*Decalage de la fenetre*/
+                        borne_inf = inc(borne_inf, NUMEROTATION);
+                        
+                        
+                        
+                    }
+                }
+                
+            }
+
+                /* Construction d'un paquet d'acquittement*/
+                pack.type = ACK;
+                pack.num_seq = paquet.num_seq;
+                pack.lg_info = 0;
+                pack.somme_ctrl = somme_de_controle(&pack);
+                
+                /* envoi de l'acquittement */
+                vers_reseau(&pack);
+        
         }
+    }
 
-        /* Construction de pasquer d'acquittement*/
-        pack.type = ACK;
-        pack.lg_info = 0;
-        pack.num_seq = dernier_paquet;
-        pack.somme_ctrl = somme_de_controle(&pack);
-
-        // envoi de l'acquittement */
-        vers_reseau(&pack);
-
-    }   
+    //En cas de perte du dernier ACK
     depart_temporisateur(TIMER);
     while(attendre() == PAQUET_RECU){
         arret_temporisateur();

@@ -5,1171 +5,1757 @@ Taille de la fenêtre : 4
 [TRP] Debut execution protocole transport.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 0, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 1, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 2, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 5, borne_inf = 2
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 6, borne_inf = 3
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 7, borne_inf = 4
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 8, borne_inf = 5
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 9, borne_inf = 6
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 10, borne_inf = 7
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 11, borne_inf = 8
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 12, borne_inf = 9
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 13, borne_inf = 10
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 14, borne_inf = 11
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 15, borne_inf = 12
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 0, borne_inf = 13
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 1, borne_inf = 14
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 2, borne_inf = 15
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 3, borne_inf = 0
 [NET] packet sent.
 
 [APP] Lecture fichier.
 [NET] packet received.
+
+Envoi du paquet 4, borne_inf = 1
 [NET] packet sent.
 [APP] Fin du fichier.
 [NET] packet received.
